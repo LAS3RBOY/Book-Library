@@ -1,0 +1,13 @@
+.input-group{
+    min-height: 75vh;
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../images/library-img.jpg") center/cover no-repeat;
+}
+
+@media (max-width:500px) {
+.quote{
+    text-align: center;
+}
+input{
+    width: 70px;
+}
+}
