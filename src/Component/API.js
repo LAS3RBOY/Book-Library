@@ -18,7 +18,7 @@ const API = () => {
             <div className="books container">
                 <Row className='' style={{ marginTop: "100px" }}>
                     {data && data.docs.map((item) => (
-                        <Col md="4">
+                        <Col md="3">
                             <Card style={{ width: '18rem' }} className='my-3'>
                                 {item.cover_i ? (
                                     <img
@@ -58,11 +58,3 @@ const API = () => {
 }
 
 export default API
-
-
-// src={`https://covers.openlibrary.org/b/id/${item.cover_i}-L.jpg`}
-// < div className = "card-body" >
-//                                         <h5 className="card-title">{item.title}</h5>
-//                                         <p className="card-text">{item.author_name && `Author: ${item.author_name.join(', ')}`}</p>
-//                                         <p className="card-text">{item.publish_date && `Publish Date: ${item.publish_date[0]}`}</p>
-//                                     </ >
